@@ -1,3 +1,18 @@
 public enum Transports {
+    CAR (65),
+    TRUCK(55),
+    AIRPLANE(600),
+    TRAIN(70),
+    BOAT(22);
+
+    private final int speed;
+
+    Transports(int speed) {
+        this.speed = speed;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
 
 }
